@@ -49,3 +49,8 @@ print("El entrenamiento ha terminado...")
 example = 39.0
 result = model.predict(np.array([[example]]), verbose=0)
 print(f"Predicción para {example}: {result[0][0]:.2f}°F")
+
+# ------------------------------
+#Variables del modelo
+print(input.get_weights())
+# ------------------------------
